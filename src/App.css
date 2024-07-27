@@ -1,0 +1,24 @@
+/* Custom scrollbar for all webkit browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Adjust the width of the scrollbar */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b6dcc8; /* Scrollbar color */
+    border-radius: 6px; /* Rounded corners for the scrollbar */
+    border: 3px solid #ffffff; /* Border around the scrollbar thumb */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0056b3; /* Darker shade of the scrollbar color on hover */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+    border-radius: 6px; /* Rounded corners for the scrollbar track */
+    box-shadow: inset 0 0 5px grey; /* Shadow effect for the track */
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "users": [
+      {
+        "id" : 1,
+        "email": "gauravbishtd20@gmail.com",
+        "password": "g123",
+        "name": "Gaurav Bisht"
+      }
+    ]
+  }
+  

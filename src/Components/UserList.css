@@ -1,0 +1,25 @@
+.error-message {
+    color: #ff3860;
+    /* A shade of red for error messages */
+    background-color: #fff3f3;
+    /* Light background to make the error pop */
+    border: 1px solid #ff3860;
+    /* Border color similar to text color */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding for some breathing room */
+    margin: 20px 0;
+    /* Margin for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Smooth transition for hover effect */
+}
+
+.error-message:hover {
+    transform: translateY(-5px);
+    /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    /* Increased shadow on hover for more depth */
+}
